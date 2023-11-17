@@ -8,6 +8,7 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import ItemDetail from './Pages/ItemDetail';
 import { Routes, Route } from 'react-router-dom';
+import Profile from "./Pages/Profile"
 import Cart from './Pages/Cart';
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path='/Contact' element={<Contact />} />
           <Route path='/Checkout' element={<Shop />} />
           <Route path='/Cart' element={<Cart />} />
+          <Route path='/Profile' element={<Profile />} />
 
 
           <Route path='*' element={<div className='grow-1 h-full w-full'>Page Not Found</div>} />

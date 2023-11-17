@@ -22,7 +22,7 @@ export default function Header() {
                 <div className="flex flex-row w-1/2">
                     <ul className="flex flex-row justify-center w-full">
                         <li className="pr-3  text-xl font-medium uppercase ">Search</li>
-                        <li className="pr-3  text-xl font-medium uppercase "><NavLink to={"/"} className={({ isActive }) => isActive ? "text-red-900" : ""}>Profile</NavLink></li>
+                        <li className="pr-3  text-xl font-medium uppercase "><NavLink to={"/Profile"} className={({ isActive }) => isActive ? "text-red-900" : ""}>Profile</NavLink></li>
                         <li className="pr-3  text-xl font-medium uppercase "><NavLink to={"/cart"} className={({ isActive }) => isActive ? "text-red-900" : ""}>Cart</NavLink></li>
                     </ul>
                 </div>
