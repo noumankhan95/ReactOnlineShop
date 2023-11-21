@@ -11,7 +11,7 @@ export default function Contact() {
         name: "",
         email: "",
     }
-    return <section className="pt-10">
+    return <section className="pt-10 w-full">
         <FormCard customClass={"w-3/5 py-2"}>
             <h1 className="text-center text-2xl font-semibold">Contact Us</h1>
             <div className="flex flex-row justify-between p-2">
